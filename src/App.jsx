@@ -1,14 +1,19 @@
 import react from 'react';
-import reactDOM from 'react-dom';
-import reactRouter from 'reactRouter';
-import landing from './components';
+import reactDOM from 'reactDOM';
+import reactRouter from 'react-router';
+import Landing from './pages/landingPage';
 
-
-function App () {
+function App (){
+  const router= createBrowserRouter([
+    {
+      path:"/",
+      element:<Landing/>
+    }
+  ]);
 
 return(
   <div>
-  {landing}
+  <RouterProvider router={router}/>
   </div>
 )
 };
