@@ -4,7 +4,7 @@ import React from 'react';
 const LandingHead = () => {
   return (
     <div>
-      <img src="\assets\sheild.svg"/>
+      <img src="/public/image/sheild.svg"/>
       
     </div>
   )
