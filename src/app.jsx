@@ -1,6 +1,6 @@
 import react from 'react';
 import ReactDOM from 'reactDOM';
-import reactRouter from 'react-router';
+import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Landing from './pages/landingPage';
 
 function App (){
