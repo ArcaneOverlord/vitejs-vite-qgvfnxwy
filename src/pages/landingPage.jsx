@@ -4,7 +4,7 @@ import React from 'react';
 
 const Landing = () => {
     return(
-        <div>
+        <div className="bg-black h-screen w-screen">
         <div>
             <hi>hi</hi>
         </div>
