@@ -4,7 +4,7 @@ import React from 'react';
 const LandingHead = () => {
   return (
     <div>
-      <div>
+      <div className="bg-white h-[10%]">
       <img src='/image/shield.svg' />
       </div>
       <div>
