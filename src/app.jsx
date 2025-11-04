@@ -1,5 +1,5 @@
 import react from 'react';
-import reactDOM from 'reactDOM';
+import ReactDOM from 'reactDOM';
 import reactRouter from 'react-router';
 import Landing from './pages/landingPage';
 
