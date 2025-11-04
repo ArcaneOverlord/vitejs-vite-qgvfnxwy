@@ -1,12 +1,12 @@
 import react from 'react';
-import reactDOM from 'reactDOM';
+import ReactDOM from 'reactDOM';
 
 
 const Landing = () => {
     return(
         <div>
         <div>
-            <hi>hi</hi>
+            <h1>hi</h1>
         </div>
         </div>
     )
