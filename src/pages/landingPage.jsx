@@ -1,11 +1,12 @@
 import React from 'react';
 
 
+
 const Landing = () => {
     return(
         <div>
         <div>
-            <h1>hi</h1>
+            <hi>hi</hi>
         </div>
         </div>
     )
