@@ -3,7 +3,7 @@ import React from 'react';
 
 const LandingHead = () => {
   return (
-    <div className="bg-[#ffffff] w-screen flex flex-[1] p-1 " >
+    <div >
       <div className= "flex flex-[1] p-3 ">
       <img src='/image/shield.svg' className="object-contain object-center " />
       </div>
