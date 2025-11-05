@@ -7,7 +7,7 @@ const LandingFooter = () => {
       <img src= "./image/house.svg" className="object-contain object-center max-h-[30px]" />
     </div>
     <div className = "flex-[1] flex">
-      <img src= "./image/shield2.svg" 
+      <img src= "./image/shield icon.svg" 
       className="object-contain object-center max-h-[30px]" />
     </div>
     <div className = "flex-[1] flex">
