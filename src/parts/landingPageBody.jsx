@@ -7,7 +7,9 @@ const LandingBody = () => {
 
       <p className="text-base text-[#7c7d81]">Help protect the community by Reporting scams quickly and easily</p>
       
-      <button><img src="/image/document.svg" />Report a scam</button>
+      <button
+      className="bg-[#626ae7] max-h-4 max-w-16 text-white font-semibold"><img
+      className="h-[30px]"src="/image/document.svg" />Report a scam</button>
       
       
     </div>
