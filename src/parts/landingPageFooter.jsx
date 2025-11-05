@@ -2,7 +2,7 @@ import React from 'react';
 
 const LandingFooter = () => {
   return (
-  <div className= "w-screen flex h-[100%] flex-row">
+  <div className="bg-[#ffffff] w-screen flex-[1]">
     <div>
       <img src= "./image/house.svg" />
     </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const LandingHead = () => {
   return (
-    <div className="flex flex-row w-screen h-[100%]">
+    <div className="bg-[#ffffff] w-screen flex-[1] " >
       <div className="h-[100%] flex flex-start">
       <img src='/image/shield.svg' />
       </div>

@@ -6,15 +6,15 @@ import LandingFooter from '../parts/landingPageFooter.jsx';
 const Landing = () => {
     return (
         <div className="bg-[#e7e7e9] max-h-screen max-w-screen flex flex-col items-center justify-center gap-[5px]">
-            <div className="bg-[#ffffff] w-screen flex-[1] " >
-                 <LandingHead/>
-            </div>
-            <div className="bg-[#ffffff] w-screen flex-[8] justify-center items-center">
-                <LandingBody/>
-            </div>
-            <div className="bg-[#ffffff] w-screen flex-[1]">
-                <LandingFooter/>
-            </div>
+        
+          <LandingHead/>
+            
+        
+          <LandingBody/>
+             
+            
+          <LandingFooter/>
+        
         </div>
     );
 };
