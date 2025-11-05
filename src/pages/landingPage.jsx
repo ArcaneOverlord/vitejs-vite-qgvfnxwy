@@ -7,13 +7,13 @@ const Landing = () => {
     return (
         <div className="bg-[#e7e7e9] max-h-screen max-w-screen flex flex-col items-center justify-center gap-[5px]
         overflow-hidden">
-        <div className="bg-[#ffffff] w-screen flex flex-[1]">
+        <div className="bg-[#ffffff] w-screen flex flex-[1] h-full">
           <LandingHead/>
         </div>    
-        <div className="bg-[#ffffff] w-screen flex-[8] justify-center items-center">
+        <div className="bg-[#ffffff] w-screen flex-[8] justify-center items-center h-full">
           <LandingBody/>
         </div> 
-        <div className="bg-[#ffffff] w-screen flex-[1] flex flex-col ">
+        <div className="bg-[#ffffff] w-screen flex-[1] flex h-full">
           <LandingFooter/>
         </div>
         </div>
