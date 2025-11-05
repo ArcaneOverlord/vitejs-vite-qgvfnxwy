@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingHead from '../parts/../parts/landingPageHead.jsx';
-import LandingBody from '../../parts/landingPageBody.jsx';
-import LandingFooter from '../../parts/landingPageFooter.jsx';
+import LandingBody from '../parts/landingPageBody.jsx';
+import LandingFooter from '../parts/landingPageFooter.jsx';
 
 const Landing = () => {
     return (
