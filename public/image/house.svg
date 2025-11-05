@@ -8,7 +8,7 @@
         id="exterior"
         points="13,1 25,9 25,25 1,25 1,9 13,1"
         stroke="#626ae7"
-        stroke-width="1"
+        stroke-width="3"
         stroke-linecap="round"
         stroke-linejoin="round"
         fill="none" />
@@ -16,7 +16,7 @@
       id="door"
       points="9,13 17,13 17,25 9,25 9,13"
       stroke="#626ae7"
-        stroke-width="1"
+        stroke-width="3"
         stroke-linecap="round"
         stroke-linejoin="round"
         fill="none" />
