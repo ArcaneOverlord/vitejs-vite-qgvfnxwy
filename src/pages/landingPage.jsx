@@ -5,7 +5,7 @@ import LandingFooter from '../parts/landingPageFooter.jsx';
 
 const Landing = () => {
     return (
-        <div className="bg-[#e7e7e9] h-[95vh] w-screen flex flex-col items-center justify-center gap-[5px]
+        <div className="bg-[#e7e7e9] h-[95vh] w-screen flex flex-col items-center justify-center gap-[2px]
         overflow-hidden">
         <div className="bg-[#ffffff] w-screen flex flex-[1] h-full">
           <LandingHead/>
