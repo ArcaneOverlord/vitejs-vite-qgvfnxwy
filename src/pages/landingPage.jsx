@@ -9,7 +9,7 @@ const Landing = () => {
             <div className="bg-[#ffffff] w-screen flex-[1] " >
                  <LandingHead/>
             </div>
-            <div className="bg-[#ffffff] w-screen flex-[8]">
+            <div className="bg-[#ffffff] w-screen flex-[8] justify-center items-center">
                 <LandingBody/>
             </div>
             <div className="bg-[#ffffff] w-screen flex-[1]">
