@@ -24,11 +24,11 @@ const renderContent = () => {
           {renderContent}
         </main>    
         
-        <footer className="bg-[#ffffff] w-screen flex-[1] flex h-full">
+        <div className="bg-[#ffffff] w-screen flex-[1] flex h-full">
           <Footer
           isActive={activeTab}
           setIsActive={setActiveTab}/>
-        </footer>
+        </div>
         </div>
     );
 };

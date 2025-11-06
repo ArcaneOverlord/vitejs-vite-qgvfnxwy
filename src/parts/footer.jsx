@@ -1,4 +1,4 @@
-function Footer({ activeTab, onTabChange }) {
+function Footer({ activeTab, setActiveTab }) {
   const tabs = [
     {
       id: "report",
@@ -10,13 +10,13 @@ function Footer({ activeTab, onTabChange }) {
       id: "protection",
       label: "Protection",
       icon: "./image/shield icon.svg",
-      iconActive: "./image/shield-active.svg",
+      iconActive: "./image/shield icon-active.svg",
     },
     {
       id: "alerts",
       label: "Alerts",
       icon: "./image/bellgrey.svg",
-      iconActive: "./image/bell-active.svg",
+      iconActive: "./image/bellgrey-active.svg",
     },
   ];
 
@@ -28,7 +28,7 @@ function Footer({ activeTab, onTabChange }) {
         return (
           <button
             key={tab.id}
-            onClick={() => onTabChange(tab.id)}
+            onClick={() => setActiveTab(tab.id)}
             className={`flex-1 flex flex-col justify-center items-center py-2 transition-colors ${
               isActive ? "text-[#007bff]" : "text-[#7c7d81]"
             }`}
