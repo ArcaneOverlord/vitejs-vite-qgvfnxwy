@@ -9,7 +9,7 @@ const LandingBody = () => {
       
       <button
       className="bg-[#626ae7] h-12 w-full text-white font-semibold text-base rounded-lg flex justify-center items-center p-2 mt-4"><img
-      className="h-[23px] inline mr-2 "src="/image/document.svg" />Report a scam</button>
+      className="h-[23px] inline mr-2 "src="/image/document.svg" />Report a Scam</button>
       
       
     </div>

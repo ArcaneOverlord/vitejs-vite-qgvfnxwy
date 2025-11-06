@@ -9,7 +9,7 @@ const LandingHead = () => {
       " />
       </div>
       <div className= "flex flex-[1] items-center justify-end h-full  px-4">
-        <img src='/image/gearb.svg'
+        <img src='/image/gearg.svg'
         className="object-contain object-center max-h-[35px]
       transition-transform duration-200 ease-out active:rotate-180 "/>
       </div>
