@@ -20,7 +20,7 @@ const renderContent = () => {
     return (
         <div className="bg-[#e7e7e9] h-[94vh] w-screen flex flex-col items-center justify-center gap-[2px]
         overflow-hidden">
-        <main className="bg-transparent w-screen flex flex-[9] h-full">
+        <main className=" w-screen flex flex-[9] h-full">
           {renderContent}
         </main>    
         
