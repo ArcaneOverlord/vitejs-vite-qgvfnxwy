@@ -1,6 +1,6 @@
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Hub from './pages/hub.jsx';
-import ReportPage from './pages/reportpage.jsx'
+import ReportPage from './pages/reportPage.jsx'
 
 function App (){
   const Router= createBrowserRouter([
