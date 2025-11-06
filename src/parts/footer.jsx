@@ -21,7 +21,7 @@ function Footer({ activeTab, onTabChange }) {
   ];
 
   return (
-    <div className="bg-[#ffffff] w-screen flex flex-row fixed bottom-0 left-0 right-0 border-t border-gray-200">
+    <div className="bg-[#ffffff] w-screen flex flex-row fixed bottom-0 left-0 right-0 h-full">
       {tabs.map((tab) => {
         const isActive = activeTab === tab.id;
 
@@ -38,7 +38,7 @@ function Footer({ activeTab, onTabChange }) {
               alt={tab.label}
               className="object-contain max-h-[30px]"
             />
-            <p className="text-sm mt-1">{tab.label}</p>
+            <p className="text-sm ">{tab.label}</p>
           </button>
         );
       })}
