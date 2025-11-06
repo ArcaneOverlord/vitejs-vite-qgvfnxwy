@@ -1,5 +1,5 @@
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-import Landing from './pages/hub.jsx';
+import Hub from './pages/hub.jsx';
 
 function App (){
   const Router= createBrowserRouter([
