@@ -13,7 +13,7 @@ const LandingFooter = () => {
             <p className="text-sm text-[#7c7d81]">Protection</p>
     </div>
     <div className = "flex-[1] flex flex-col justify-center items-center">
-      <img src= "./image/Bell.svg"
+      <img src= "./image/Bell grey.svg"
       className="object-contain object-center max-h-[30px]" />
             <p className="text-sm text-[#7c7d81]">Alerts</p>
     </div>
