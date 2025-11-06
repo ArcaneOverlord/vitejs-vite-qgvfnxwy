@@ -6,14 +6,14 @@ import AlertPage from './alertPage.jsx';
 import Footer from '../parts/footer.jsx';
 
 function Hub () {
-const [isActive,setIsActive] = useState('report');
+const [activeTab,setActiveTab] = useState('report');
 
 const renderContent = () => {
-  if (isActive === "reportPage")
+  if (activeTab === "reportPage")
     return <ReportPage/>;
-  if (isActive === "protectionPage")
+  if (activeTab === "protectionPage")
     return <ProtectionPage/>
-  if (isActive === "alertPage")
+  if (activeTab === "alertPage")
     return <AlertPage/>
   return <ReportPage/>
 };
@@ -26,8 +26,8 @@ const renderContent = () => {
         
         <div className="bg-[#ffffff] w-screen flex-[1] flex h-full">
           <Footer
-          isActive={activeTab}
-          setIsActive={setActiveTab}/>
+          activeTab={activeTab}
+          onTabChange={setActiveTab}/>
         </div>
         </div>
     );

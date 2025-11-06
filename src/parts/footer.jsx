@@ -1,4 +1,4 @@
-function Footer({ activeTab, setActiveTab }) {
+function Footer({ activeTab, onTabChange }) {
   const tabs = [
     {
       id: "report",
@@ -28,7 +28,7 @@ function Footer({ activeTab, setActiveTab }) {
         return (
           <button
             key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
+            onClick={() => onTabChange(tab.id)}
             className={`flex-1 flex flex-col justify-center items-center py-2 transition-colors ${
               isActive ? "text-[#007bff]" : "text-[#7c7d81]"
             }`}
