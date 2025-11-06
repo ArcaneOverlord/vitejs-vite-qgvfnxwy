@@ -1,0 +1,24 @@
+<svg width="100%" height="100%" 
+     viewBox="0 0 26 26" 
+     fill="none"
+     xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet">
+  <g id="house">
+    <polygon 
+        id="exterior"
+        points="13,1 25,9 25,25 1,25 1,9 13,1"
+        stroke="#626ae7"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none" />
+      <polygon 
+      id="door"
+      points="9,13 17,13 17,25 9,25 9,13"
+      stroke="#626ae7"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none" />
+  </g>
+</svg>
