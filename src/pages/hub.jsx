@@ -21,7 +21,7 @@ const renderContent = () => {
         <div className="bg-[#e7e7e9] h-[94vh] w-screen flex flex-col items-center justify-center gap-[2px]
         overflow-hidden">
         <main className=" w-screen flex flex-[9] h-full">
-          {renderContent}
+          {renderContent()}
         </main>    
         
         <div className="bg-[#ffffff] w-screen flex-[1] flex h-full">
