@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LandingFooter = () => {
+const Footer = () => {
   return (
   <div className="bg-[#ffffff] w-screen h-full flex flex-row ">
     <div className = "flex-[1] flex flex-col justify-center items-center">
@@ -20,4 +20,4 @@ const LandingFooter = () => {
   </div>
   )
 };
-export default LandingFooter;
+export default Footer;

@@ -1,9 +1,9 @@
 import React from 'react';
 import LandingHead from '../parts/../parts/landingPageHead.jsx';
 import LandingBody from '../parts/landingPageBody.jsx';
-import LandingFooter from '../parts/landingPageFooter.jsx';
 
-const Landing = () => {
+
+const ReportPage = () => {
     return (
         <div className="bg-[#e7e7e9] h-[94vh] w-screen flex flex-col items-center justify-center gap-[2px]
         overflow-hidden">
@@ -13,11 +13,10 @@ const Landing = () => {
         <div className="bg-[#ffffff] w-screen flex-[8] h-full">
           <LandingBody/>
         </div> 
-        <div className="bg-[#ffffff] w-screen flex-[1] flex h-full">
-          <LandingFooter/>
-        </div>
+        
+    
         </div>
     );
 };
 
-export default Landing;
+export default ReportPage;

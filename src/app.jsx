@@ -1,11 +1,11 @@
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-import Landing from './pages/landingPage.jsx';
+import Landing from './pages/hub.jsx';
 
 function App (){
   const Router= createBrowserRouter([
     {
       path:"/",
-      element:<Landing/>
+      element:<Hub/>
     }
   ]);
 
