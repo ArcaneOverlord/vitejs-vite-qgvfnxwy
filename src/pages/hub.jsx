@@ -9,11 +9,11 @@ function Hub () {
 const [activeTab,setActiveTab] = useState('report');
 
 const renderContent = () => {
-  if (activeTab === "reportPage")
+  if (activeTab === "report")
     return <ReportPage/>;
-  if (activeTab === "protectionPage")
+  if (activeTab === "protection")
     return <ProtectionPage/>
-  if (activeTab === "alertPage")
+  if (activeTab === "alerts")
     return <AlertPage/>
   return <ReportPage/>
 };
