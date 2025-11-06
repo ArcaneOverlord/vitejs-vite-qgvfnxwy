@@ -1,8 +1,8 @@
 import React from 'react';
 import {useState} from 'react';
 import Report from './reportPage.jsx';
-import ProtectionPage from './pages/protectionPage.jsx';
-import AlertPage from './pages/alertPage.jsx';
+import ProtectionPage from './protectionPage.jsx';
+import AlertPage from './alertPage.jsx';
 import Footer from '../parts/footer.jsx';
 
 function Hub () {
@@ -10,12 +10,12 @@ const [isActive,setIsActive] = useState('report');
 
 const renderContent = () => {
   if (isActive === "reportPage")
-    return <Report/>;
+    return <ReportPage/>;
   if (isActive === "protectionPage")
     return <ProtectionPage/>
   if (isActive === "alertPage")
     return <AlertPage/>
-  return <Report/>
+  return <ReportPage/>
 };
     return (
         <div className="bg-[#e7e7e9] h-[94vh] w-screen flex flex-col items-center justify-center gap-[2px]

@@ -3,7 +3,7 @@ import LandingHead from '../parts/../parts/landingPageHead.jsx';
 import LandingBody from '../parts/landingPageBody.jsx';
 
 
-const Report = () => {
+const ReportPage = () => {
     return (
         <div className="bg-[#e7e7e9] h-[94vh] w-screen flex flex-col items-center justify-center gap-[2px]
         overflow-hidden">
@@ -19,4 +19,4 @@ const Report = () => {
     );
 };
 
-export default Report;
+export default ReportPage;
