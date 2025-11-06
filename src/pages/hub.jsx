@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import Report from './reportPage.jsx';
+import ReportPage from './reportPage.jsx';
 import ProtectionPage from './protectionPage.jsx';
 import AlertPage from './alertPage.jsx';
 import Footer from '../parts/footer.jsx';

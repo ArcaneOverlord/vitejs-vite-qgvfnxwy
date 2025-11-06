@@ -1,4 +1,4 @@
-function AlertContent() {
+function AlertPage() {
   return (
     <div className="content">
       <h1>Contact</h1>
@@ -6,4 +6,4 @@ function AlertContent() {
     </div>
   );
 }
-export default AlertContent;
+export default AlertPage;

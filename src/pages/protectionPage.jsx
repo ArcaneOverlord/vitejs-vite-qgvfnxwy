@@ -1,4 +1,4 @@
-function ProtectionContent() {
+function ProtectionPage() {
   return (
     <div className="content">
       <h1>About</h1>
@@ -6,4 +6,4 @@ function ProtectionContent() {
     </div>
   );
 }
-export default ProtectionContent;
+export default ProtectionPage;
