@@ -1,11 +1,16 @@
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Hub from './pages/hub.jsx';
+import ReportPage from './pages/reportpage.jsx'
 
 function App (){
   const Router= createBrowserRouter([
     {
       path:"/",
       element:<Hub/>
+    },
+    {
+      path:"report",
+      element:<ReportPage/>
     }
   ]);
 
